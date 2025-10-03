@@ -2,11 +2,13 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import type { Engine } from "tsparticles-engine";
 import { Box } from "@mui/material";
 
 export default function Background() {
-  const particlesInit = useCallback(async (engine: any) => {
-    await loadFull(engine);
+  // ใช้ type Engine เพื่อไม่ให้ ESLint/TS ฟ้อง และเลี่ยง async/await
+  const particlesInit = useCallback((engine: Engine) => {
+    loadFull(engine).catch(() => {}); // swallow error เผื่อ runtime network ล้ม
   }, []);
 
   return (
