@@ -1224,9 +1224,9 @@ function SectionTeam({
   height: number;
 }) {
   const members = [
-    { name: "Thanakorn Sombatboon", role: "Lead Developer", branch: "Computer & Information Systems", img: "/member1.png" },
-    { name: "Sirawit P.", role: "UI/UX Designer", branch: "Creative Technology", img: "/member2.png" },
-    { name: "Pattarapon C.", role: "Data & Research Analyst", branch: "Information Engineering", img: "/member3.png" },
+    { name: "Thanakorn Sombatboon", role: "Lead Developer", branch: "Computer & Information Systems", img: "/member11.png" },
+    { name: "Sirawit P.", role: "UI/UX Designer", branch: "Creative Technology", img: "/member22.png" },
+    { name: "Pattarapon C.", role: "Data & Research Analyst", branch: "Information Engineering", img: "/member33.png" },
   ];
 
   return (
