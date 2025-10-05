@@ -498,7 +498,7 @@ function SectionDemoApp({ refProp }: { refProp: React.RefObject<HTMLDivElement> 
               mb: 4,
             }}
           >
-            📱 Demo – App
+             Demo  App
           </Typography>
 
           <motion.div
@@ -571,7 +571,7 @@ function SectionDemoModel({ refProp }: { refProp: React.RefObject<HTMLDivElement
               mb: 3,
             }}
           >
-            ♻️ Demo – EcoBox Model
+            ♻️ Demo EcoBox Model
           </Typography>
           <Typography
             variant="h6"
@@ -1224,9 +1224,9 @@ function SectionTeam({
   height: number;
 }) {
   const members = [
-    { name: "Thanakorn Sombatboon", role: "Lead Developer", branch: "Computer & Information Systems", img: "/member11.png" },
-    { name: "Sirawit P.", role: "UI/UX Designer", branch: "Creative Technology", img: "/member22.png" },
-    { name: "Pattarapon C.", role: "Data & Research Analyst", branch: "Information Engineering", img: "/member33.png" },
+    { name: "Thanakorn ", role: "web app development", branch: "major computer science", img: "/member11.png" },
+    { name: "Sirawit .", role: "CDO ", branch: "major computer science", img: "/member22.png" },
+    { name: "Pattarapon .", role: "CEO", branch: "major computer science", img: "/member33.png" },
   ];
 
   return (
